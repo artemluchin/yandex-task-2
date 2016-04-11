@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yandex Students</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/main.css" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="options col-md-12">
+                <span class="options__set-random">Установить произвольные приоритеты</span>
+                <span class="options__json-export">Экспорт JSON</span>
+                <span class="options__clear-all">Очистить все</span>
+                <textarea style="font-size: 8px; display:none;margin: 10px;" class="form-control" rows="5"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-6">
+                <div class="tasks">
+                    <div class="tasks__title">Задания</div>
+                    <div class="tasks__list"></div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-6">
+                <div class="students">
+                    <div class="students__title students__title_active">Студенты</div>
+                    <div class="mentors__title">Менторы</div>
+                    <div class="input-group">
+                      <input type="text" class="students__input form-control" placeholder="Имя нового студента">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default students__add-button" type="button"><i class="fa fa-user-plus"></i></button>
+                      </span>
+                    </div>
+                    <div class="students__input-error"></div>
+                    <div class="students__list">
+                        <div class="groups__list"></div>
+                    </div>
+                </div>
+                <div class="mentors">
+                    <div class="students__title students__title_active">Студенты</div>
+                    <div class="mentors__title">Менторы</div>
+                    <div class="input-group">
+                      <input type="text" class="mentors__input form-control" placeholder="Имя нового ментора">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default mentors__add-button" type="button"><i class="fa fa-user-plus"></i></button>
+                      </span>
+                    </div>
+                    <div class="mentors__input-error"></div>
+                    <div class="mentors__list"></div>
+                </div>
+                <div class="distribution__button">Распределить студентов</div>
+            </div>
+        </div>
+    </div>
+    <div class="wishlist">
+        <div class="wishlist__title"></div>
+        <div class="wishlist__list">
+        </div>
+    </div>
+    <div class="distribution">
+        <div class="distribution__title">Распределение студентов среди менторов</div>
+        <div class="distribution__list"></div>
+    </div>
+    
+    <script type="text/javascript" src="/assets/js/jquery-1.12.2.min.js"></script>
+    <!--<script type="text/javascript" src="/dist/lib.js"></script>-->
+    <script type="text/javascript" src="/assets/js/lib.js"></script>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
+</body>
+</html>
