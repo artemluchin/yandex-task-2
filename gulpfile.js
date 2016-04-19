@@ -6,18 +6,11 @@ var uglifycss       = require('gulp-uglifycss');
 var rename          = require('gulp-rename');
 var sourcemaps      = require('gulp-sourcemaps');
 var autoprefixer    = require('gulp-autoprefixer');
-var babel						= require('gulp-babel');
-var autopolyfiller  = require('gulp-autopolyfiller');
-
-gulp.task('sass', function () {
-  return gulp.src('assets/sass/*.scss')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('assets/css'));
-});
+var babel			= require('gulp-babel');
 
 gulp.task('dist.css', function () {
   
-	return gulp.src('assets/sass/*.scss')
+	return gulp.src('src/sass/*.scss')
 		.pipe(sourcemaps.init())
 		.pipe(sass().on('error',sass.logError))
 		.pipe(autoprefixer({ browsers: ['> 1%', 'IE 7'], cascade: false }))
@@ -31,13 +24,14 @@ gulp.task('dist.css', function () {
 });
 
 gulp.task('dist.js', function() {
-    return gulp.src('assets/js/lib.js')
+    return gulp.src(['src/js/app.js',
+    				 'src/js/renders.js',
+    				 'src/js/events.js',
+    				 'src/js/lib.js'])
+    	.pipe(concat('app.js'))
 		.pipe(babel({
 			presets: ['es2015']
 		}))
-		.pipe(gulp.dest('dist'));
-})
-
-gulp.task('sass:watch', function () {
-  gulp.watch('assets/sass/*.scss', ['sass']);
+		.pipe(uglify())
+		.pipe(gulp.dest('dist/js'));
 });

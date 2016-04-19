@@ -30,7 +30,7 @@ body {
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out; }
   .students__title:hover, .mentors__title:hover {
-    background-color: #FDF3CD; }
+    background-color: #ffeca6; }
 
 .students__title_active, .mentors__title_active {
   background: #ffdb4c; }
@@ -147,20 +147,27 @@ input[type="text"].students__input, input[type="text"].mentors__input {
   font-weight: bold;
   margin: 0 0 10px 0;
   color: #666; }
+  .tasks__task-item-name span:hover {
+    border-bottom: 2px dotted #bbb; }
 
 .tasks__task-item-details {
   padding: 0 10px; }
+  .tasks__task-item-details span:hover {
+    border-bottom: 2px dotted #bbb; }
 
 .tasks__task-item-author {
   display: inline-block;
   margin-top: 20px;
   font-weight: bold;
   font-size: 12px;
-  color: #aaa; }
+  color: #7b7b7b; }
   .tasks__task-item-author span {
     font-weight: normal;
     color: #000;
-    margin-left: 10px; }
+    margin-left: 10px;
+    padding: 6px;
+    background: #DDDDDD;
+    border-radius: 15px; }
 
 .tasks__task-item-rating {
   display: inline-block;
@@ -168,6 +175,8 @@ input[type="text"].students__input, input[type="text"].mentors__input {
   top: 20px;
   right: 30px;
   font-size: 0; }
+  .tasks__task-item-rating .fa-star {
+    color: #666; }
   .tasks__task-item-rating i {
     font-size: 14px;
     margin-right: 2px;
@@ -247,7 +256,7 @@ input[type="text"].students__input, input[type="text"].mentors__input {
   float: right;
   cursor: pointer; }
   .wishlist__priority .fa-star {
-    color: #ffdb4c; }
+    color: #666; }
   .wishlist__priority i {
     cursor: pointer; }
 
@@ -269,17 +278,16 @@ input[type="text"].students__input, input[type="text"].mentors__input {
   font-size: 16px; }
 
 .distribution__list {
-  padding: 20px;
-  padding-right: 10px;
-  max-width: 870px;
+  padding: 40px;
+  text-align: center;
   font-size: 0px; }
 
 .distribution__item {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 3%;
   border: 1px solid #ddd;
   vertical-align: top;
-  width: 200px;
+  width: 30%;
   font-size: 12px;
   margin-bottom: 15px; }
 

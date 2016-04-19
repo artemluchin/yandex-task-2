@@ -2,200 +2,200 @@
     "students": [{
         "id": 1,
         "name": "Колесникова Светлана",
-        "groupId": 0,
+        "groupId": 1,
         "tasksId": [],
         "wishList": [{
             "mentorId": 1,
-            "priority": 0
+            "priority": 4
         }, {
             "mentorId": 2,
-            "priority": 0
+            "priority": 6
         }, {
             "mentorId": 3,
-            "priority": 0
+            "priority": 4
         }, {
             "mentorId": 4,
-            "priority": 0
+            "priority": 10
         }]
     }, {
         "id": 2,
         "name": "Швецов Дмитрий",
-        "groupId": 0,
+        "groupId": 2,
         "tasksId": [],
         "wishList": [{
             "mentorId": 1,
-            "priority": 0
+            "priority": 10
         }, {
             "mentorId": 2,
-            "priority": 0
+            "priority": 9
         }, {
             "mentorId": 3,
-            "priority": 0
+            "priority": 4
         }, {
             "mentorId": 4,
-            "priority": 0
+            "priority": 6
         }]
     }, {
         "id": 3,
         "name": "Абрамович Станислав",
-        "groupId": 0,
+        "groupId": 3,
         "tasksId": [],
         "wishList": [{
             "mentorId": 1,
-            "priority": 0
+            "priority": 8
         }, {
             "mentorId": 2,
-            "priority": 0
+            "priority": 1
         }, {
             "mentorId": 3,
-            "priority": 0
+            "priority": 4
         }, {
             "mentorId": 4,
-            "priority": 0
+            "priority": 1
         }]
     }, {
         "id": 4,
         "name": "Карамзин Петр",
-        "groupId": 0,
+        "groupId": 1,
         "tasksId": [],
         "wishList": [{
             "mentorId": 1,
-            "priority": 0
+            "priority": 10
         }, {
             "mentorId": 2,
-            "priority": 0
+            "priority": 7
         }, {
             "mentorId": 3,
-            "priority": 0
+            "priority": 1
         }, {
             "mentorId": 4,
-            "priority": 0
+            "priority": 10
         }]
     }, {
         "id": 5,
         "name": "Свиридова Екатерина",
-        "groupId": 0,
+        "groupId": 3,
         "tasksId": [],
         "wishList": [{
             "mentorId": 1,
-            "priority": 0
+            "priority": 8
         }, {
             "mentorId": 2,
-            "priority": 0
+            "priority": 10
         }, {
             "mentorId": 3,
-            "priority": 0
+            "priority": 6
         }, {
             "mentorId": 4,
-            "priority": 0
+            "priority": 3
         }]
     }, {
         "id": 6,
         "name": "Полонский Михаил",
-        "groupId": 0,
+        "groupId": 1,
         "tasksId": [],
         "wishList": [{
             "mentorId": 1,
-            "priority": 0
+            "priority": 8
         }, {
             "mentorId": 2,
-            "priority": 0
+            "priority": 8
         }, {
             "mentorId": 3,
-            "priority": 0
+            "priority": 7
         }, {
             "mentorId": 4,
-            "priority": 0
+            "priority": 3
         }]
     }, {
         "id": 7,
         "name": "Бурмистров Степан",
-        "groupId": 0,
+        "groupId": 1,
         "tasksId": [],
         "wishList": [{
             "mentorId": 1,
-            "priority": 0
+            "priority": 7
         }, {
             "mentorId": 2,
-            "priority": 0
+            "priority": 9
         }, {
             "mentorId": 3,
-            "priority": 0
+            "priority": 9
         }, {
             "mentorId": 4,
-            "priority": 0
+            "priority": 10
         }]
     }, {
         "id": 8,
         "name": "Кожедуб Сергей",
-        "groupId": 0,
+        "groupId": 2,
         "tasksId": [],
         "wishList": [{
             "mentorId": 1,
-            "priority": 0
+            "priority": 7
         }, {
             "mentorId": 2,
-            "priority": 0
+            "priority": 2
         }, {
             "mentorId": 3,
-            "priority": 0
+            "priority": 7
         }, {
             "mentorId": 4,
-            "priority": 0
+            "priority": 8
         }]
     }, {
         "id": 9,
         "name": "Заливная Елизавета",
         "groupId": 0,
-        "tasksId": [],
+        "tasksId": [1],
         "wishList": [{
             "mentorId": 1,
-            "priority": 0
+            "priority": 8
         }, {
             "mentorId": 2,
-            "priority": 0
+            "priority": 10
         }, {
             "mentorId": 3,
-            "priority": 0
+            "priority": 4
         }, {
             "mentorId": 4,
-            "priority": 0
+            "priority": 8
         }]
     }, {
         "id": 10,
         "name": "Училихин Вадим",
-        "groupId": 0,
+        "groupId": 3,
         "tasksId": [],
         "wishList": [{
             "mentorId": 1,
-            "priority": 0
+            "priority": 6
         }, {
             "mentorId": 2,
-            "priority": 0
+            "priority": 9
         }, {
             "mentorId": 3,
-            "priority": 0
+            "priority": 4
         }, {
             "mentorId": 4,
-            "priority": 0
+            "priority": 5
         }]
     }, {
         "id": 11,
         "name": "Семипядов Лаврентий",
-        "groupId": 0,
+        "groupId": 2,
         "tasksId": [],
         "wishList": [{
             "mentorId": 1,
-            "priority": 0
+            "priority": 2
         }, {
             "mentorId": 2,
-            "priority": 0
+            "priority": 9
         }, {
             "mentorId": 3,
-            "priority": 0
+            "priority": 5
         }, {
             "mentorId": 4,
-            "priority": 0
+            "priority": 6
         }]
     }, {
         "id": 12,
@@ -204,16 +204,16 @@
         "tasksId": [],
         "wishList": [{
             "mentorId": 1,
-            "priority": 0
+            "priority": 1
         }, {
             "mentorId": 2,
-            "priority": 0
+            "priority": 9
         }, {
             "mentorId": 3,
-            "priority": 0
+            "priority": 4
         }, {
             "mentorId": 4,
-            "priority": 0
+            "priority": 4
         }]
     }, {
         "id": 13,
@@ -222,281 +222,273 @@
         "tasksId": [],
         "wishList": [{
             "mentorId": 1,
-            "priority": 0
+            "priority": 10
         }, {
             "mentorId": 2,
-            "priority": 0
+            "priority": 1
         }, {
             "mentorId": 3,
-            "priority": 0
+            "priority": 3
         }, {
             "mentorId": 4,
-            "priority": 0
+            "priority": 5
         }]
     }, {
         "id": 14,
         "name": "Ковылев Артур",
         "groupId": 0,
-        "tasksId": [],
+        "tasksId": [3],
         "wishList": [{
             "mentorId": 1,
-            "priority": 0
+            "priority": 9
         }, {
             "mentorId": 2,
-            "priority": 0
+            "priority": 1
         }, {
             "mentorId": 3,
-            "priority": 0
+            "priority": 5
         }, {
             "mentorId": 4,
-            "priority": 0
+            "priority": 4
         }]
     }],
-    "groups": [],
+    "groups": [{
+        "id": 1,
+        "name": "Яндекс.Карты",
+        "studentsId": [1, 4, 6, 7],
+        "tasksId": [4]
+    }, {
+        "id": 2,
+        "name": "Яндекс.Поиск",
+        "studentsId": [2, 8, 11],
+        "tasksId": []
+    }, {
+        "id": 3,
+        "name": "Яндекс.Почта",
+        "studentsId": [3, 5, 10],
+        "tasksId": [2]
+    }, {
+        "id": 4,
+        "name": "Яндекс.Видео",
+        "studentsId": [],
+        "tasksId": []
+    }],
     "mentors": [{
         "id": 1,
-        "name": "Магистр Йода",
+        "name": "Михайлов Кирилл",
         "list": [],
         "wishList": [{
             "studentId": 1,
-            "priority": 0,
-            "synergy": 0
+            "priority": 10
         }, {
             "studentId": 2,
-            "priority": 0,
-            "synergy": 0
+            "priority": 5
         }, {
             "studentId": 3,
-            "priority": 0,
-            "synergy": 0
+            "priority": 5
         }, {
             "studentId": 4,
-            "priority": 0,
-            "synergy": 0
+            "priority": 3
         }, {
             "studentId": 5,
-            "priority": 0,
-            "synergy": 0
+            "priority": 8
         }, {
             "studentId": 6,
-            "priority": 0,
-            "synergy": 0
+            "priority": 1
         }, {
             "studentId": 7,
-            "priority": 0,
-            "synergy": 0
+            "priority": 1
         }, {
             "studentId": 8,
-            "priority": 0,
-            "synergy": 0
+            "priority": 3
         }, {
             "studentId": 9,
-            "priority": 0,
-            "synergy": 0
+            "priority": 7
         }, {
             "studentId": 10,
-            "priority": 0,
-            "synergy": 0
+            "priority": 3
         }, {
             "studentId": 11,
-            "priority": 0,
-            "synergy": 0
+            "priority": 1
         }, {
             "studentId": 12,
-            "priority": 0,
-            "synergy": 0
+            "priority": 9
         }, {
             "studentId": 13,
-            "priority": 0,
-            "synergy": 0
+            "priority": 10
         }, {
             "studentId": 14,
-            "priority": 0,
-            "synergy": 0
+            "priority": 1
         }]
     }, {
         "id": 2,
-        "name": "Энакин Скайуокер",
+        "name": "Круглов Павел",
         "list": [],
         "wishList": [{
             "studentId": 1,
-            "priority": 0,
-            "synergy": 0
+            "priority": 2
         }, {
             "studentId": 2,
-            "priority": 0,
-            "synergy": 0
+            "priority": 10
         }, {
             "studentId": 3,
-            "priority": 0,
-            "synergy": 0
+            "priority": 9
         }, {
             "studentId": 4,
-            "priority": 0,
-            "synergy": 0
+            "priority": 4
         }, {
             "studentId": 5,
-            "priority": 0,
-            "synergy": 0
+            "priority": 5
         }, {
             "studentId": 6,
-            "priority": 0,
-            "synergy": 0
+            "priority": 8
         }, {
             "studentId": 7,
-            "priority": 0,
-            "synergy": 0
+            "priority": 9
         }, {
             "studentId": 8,
-            "priority": 0,
-            "synergy": 0
+            "priority": 4
         }, {
             "studentId": 9,
-            "priority": 0,
-            "synergy": 0
+            "priority": 9
         }, {
             "studentId": 10,
-            "priority": 0,
-            "synergy": 0
+            "priority": 10
         }, {
             "studentId": 11,
-            "priority": 0,
-            "synergy": 0
+            "priority": 7
         }, {
             "studentId": 12,
-            "priority": 0,
-            "synergy": 0
+            "priority": 9
         }, {
             "studentId": 13,
-            "priority": 0,
-            "synergy": 0
+            "priority": 2
         }, {
             "studentId": 14,
-            "priority": 0,
-            "synergy": 0
+            "priority": 8
         }]
     }, {
         "id": 3,
-        "name": "Падмэ",
+        "name": "Свечников Константин",
         "list": [],
         "wishList": [{
             "studentId": 1,
-            "priority": 0,
-            "synergy": 0
+            "priority": 7
         }, {
             "studentId": 2,
-            "priority": 0,
-            "synergy": 0
+            "priority": 2
         }, {
             "studentId": 3,
-            "priority": 0,
-            "synergy": 0
+            "priority": 9
         }, {
             "studentId": 4,
-            "priority": 0,
-            "synergy": 0
+            "priority": 2
         }, {
             "studentId": 5,
-            "priority": 0,
-            "synergy": 0
+            "priority": 4
         }, {
             "studentId": 6,
-            "priority": 0,
-            "synergy": 0
+            "priority": 9
         }, {
             "studentId": 7,
-            "priority": 0,
-            "synergy": 0
+            "priority": 1
         }, {
             "studentId": 8,
-            "priority": 0,
-            "synergy": 0
+            "priority": 6
         }, {
             "studentId": 9,
-            "priority": 0,
-            "synergy": 0
+            "priority": 4
         }, {
             "studentId": 10,
-            "priority": 0,
-            "synergy": 0
+            "priority": 8
         }, {
             "studentId": 11,
-            "priority": 0,
-            "synergy": 0
+            "priority": 4
         }, {
             "studentId": 12,
-            "priority": 0,
-            "synergy": 0
+            "priority": 1
         }, {
             "studentId": 13,
-            "priority": 0,
-            "synergy": 0
+            "priority": 3
         }, {
             "studentId": 14,
-            "priority": 0,
-            "synergy": 0
+            "priority": 2
         }]
     }, {
         "id": 4,
-        "name": "Канцлер Палпатин",
+        "name": "Мухин Анатолий",
         "list": [],
         "wishList": [{
             "studentId": 1,
-            "priority": 0,
-            "synergy": 0
+            "priority": 1
         }, {
             "studentId": 2,
-            "priority": 0,
-            "synergy": 0
+            "priority": 7
         }, {
             "studentId": 3,
-            "priority": 0,
-            "synergy": 0
+            "priority": 4
         }, {
             "studentId": 4,
-            "priority": 0,
-            "synergy": 0
+            "priority": 5
         }, {
             "studentId": 5,
-            "priority": 0,
-            "synergy": 0
+            "priority": 9
         }, {
             "studentId": 6,
-            "priority": 0,
-            "synergy": 0
+            "priority": 6
         }, {
             "studentId": 7,
-            "priority": 0,
-            "synergy": 0
+            "priority": 6
         }, {
             "studentId": 8,
-            "priority": 0,
-            "synergy": 0
+            "priority": 4
         }, {
             "studentId": 9,
-            "priority": 0,
-            "synergy": 0
+            "priority": 4
         }, {
             "studentId": 10,
-            "priority": 0,
-            "synergy": 0
+            "priority": 5
         }, {
             "studentId": 11,
-            "priority": 0,
-            "synergy": 0
+            "priority": 7
         }, {
             "studentId": 12,
-            "priority": 0,
-            "synergy": 0
+            "priority": 2
         }, {
             "studentId": 13,
-            "priority": 0,
-            "synergy": 0
+            "priority": 5
         }, {
             "studentId": 14,
-            "priority": 0,
-            "synergy": 0
+            "priority": 4
         }]
     }],
-    "tasks": []
+    "tasks": [{
+        "id": 1,
+        "name": "Сверстать страницу телепрограммы",
+        "details": "Страница должна содержать телепрограмму на неделю, а также быть адаптирована под мобильные устройства.",
+        "rating": 4,
+        "studentId": 9,
+        "groupId": 0
+    }, {
+        "id": 2,
+        "name": "Исправить интерфейс почты",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, odio, accusantium sed laudantium nam labore corrupti iste obcaecati quasi deserunt vitae et repellat nostrum reiciendis doloremque dolore esse. Pariatur, suscipit.",
+        "rating": 5,
+        "studentId": 0,
+        "groupId": 3
+    }, {
+        "id": 3,
+        "name": "Разработать библиотеку",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, odio, accusantium sed laudantium nam labore corrupti iste obcaecati quasi deserunt vitae et repellat nostrum reiciendis doloremque dolore esse. Pariatur, suscipit.",
+        "rating": 3,
+        "studentId": 14,
+        "groupId": 0
+    }, {
+        "id": 4,
+        "name": "Все переделать",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, odio, accusantium sed laudantium nam labore corrupti iste obcaecati quasi deserunt vitae et repellat nostrum reiciendis doloremque dolore esse. Pariatur, suscipit.",
+        "rating": 2,
+        "studentId": 0,
+        "groupId": 1
+    }]
 }
